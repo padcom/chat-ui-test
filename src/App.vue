@@ -10,6 +10,7 @@
 <script setup>
 import { ref } from 'vue'
 import { Chat, Messages, Message, Prompt } from '@padcom/chat-ui'
+// import '@padcom/chat-ui-formatter-json'
 import '@padcom/chat-ui-formatter-marked'
 
 const messages = ref([
