@@ -12,6 +12,8 @@ import { ref } from 'vue'
 import { Chat, Messages, Message, Prompt } from '@padcom/chat-ui'
 // import '@padcom/chat-ui-formatter-json'
 import '@padcom/chat-ui-formatter-marked'
+import '@padcom/chat-ui/dist/index.css'
+import 'github-markdown-css'
 
 const messages = ref([
   { role: 'system', content: 'You are a helpful assistant using [LM Studio](https://lmstudio.ai)' },

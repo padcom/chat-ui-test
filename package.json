@@ -12,7 +12,7 @@
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
-    "@padcom/chat-ui": "^0.1.8",
+    "@padcom/chat-ui": "^0.1.10",
     "@padcom/chat-ui-formatter-marked": "^0.0.5",
     "@padcom/chat-ui-formatter-json": "^0.0.5",
     "@vitejs/plugin-vue": "^5.2.4",
